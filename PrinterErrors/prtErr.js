@@ -16,12 +16,7 @@ function printerError(s) {
 
 console.log(printerError("aaabbbbhaijjjmzzzz"));
 
-
-/*
-
-//Best solution
+// Best solution
 function printerError(s) {
     return s.match(/[^a-m]/g).length + "/" + s.length;
 }
-
-*/
