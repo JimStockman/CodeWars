@@ -11,4 +11,4 @@ function towerBuilder(nFloors) {
   return building;
 }
 
-console.log(towerBuilder(3))
+console.log(towerBuilder(100))
